@@ -1,42 +1,8 @@
-   
-/* 
-Parte del Modelo de Caja	Color	Descripción
-Contenido	🔵 Azul claro	Donde va el texto o los elementos internos.
-Padding	🟡 Amarillo	Espacio dentro del borde, alrededor del contenido.
-Border	⚫ Negro	El borde que rodea al padding y contenido.
-Margin	🔴 Rojo (no visible pero lo podrías simular con fondo en <body>)
-    
-    */
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px;
+    box-sizing: border-box;
+}
 
-
-
-body {
-    background-color: #f0f0f0;
-    
-  }
-
-.caja {
-    display: inline-block;
-    /* font-size: 100px;
-    overflow: hidden; 
-    white-space: nowrap;
-    text-overflow: ellipsis; */
-    width: 200px;
-    height: 100px;
-    /* box-sizing: border-box; */
-    padding: 20px;             /* 🟡 Amarillo */
-    border: 5px solid black;   /* ⚫ Negro */
-    margin: 30px;              /* 🔴 Rojo */
-    background-color: lightblue; /* 🔵 Contenido */
-}  
-
-
-.caja_dos {
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-    padding: 20px;             /* 🟡 Amarillo */
-    border: 5px solid black;   /* ⚫ Negro */
-    margin: 30px;              /* 🔴 Rojo */
-    background-color: rgb(173, 230, 173); /* 🔵 Contenido */
-  }
