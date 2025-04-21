@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    background-color: #f4f4;
+}
+
+h1{
+    color: #333;
+    text-align: center;
+}
+
+.titulo-principal{
+    font-size: 2em;
+    color: navy;
+}
+
+#nombre-usuario{
+    color: greenyellow;
+}
+
+.descripcion{
+    color: yellow;
+    font-style: italic;
+}
+
+p{
+    margin-bottom: 0.5em;
+}
+
+#ubicacion{
+    font-weight: bold;
+    color: orange;
+}
+
+.info p{
+    font-size: 0.9em;
+}
+
+.interes{
+    color: blue !important;
+}
+
+.especiall{
+    font-weight: bold;
+}

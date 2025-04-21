@@ -1,0 +1,54 @@
+/* Regla A */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Regla B */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Regla C */
+.titulo-principal {
+    font-size: 2em;
+    color: navy;
+}
+
+/* Regla D */
+#nombre-usuario {
+    color: green;
+}
+
+/* Regla E */
+.descripcion {
+    color: gray;
+    font-style: italic;
+}
+
+/* Regla F */
+p {
+    margin-bottom: 0.5em;
+}
+
+/* Regla G */
+#ubicacion {
+    font-weight: bold;
+    color: orange;
+}
+
+/* Regla H */
+.info p {
+    font-size: 0.9em;
+}
+
+/* Regla I */
+.interes {
+    color: blue !important; /* ¡Importante! */
+}
+
+/* Regla J */
+.especial {
+    font-weight: bold;
+}
