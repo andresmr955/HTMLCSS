@@ -1,0 +1,36 @@
+h1{
+    color: rgb(7, 7, 95);
+    font-family: serif;
+    margin-bottom: 4px;
+    margin: 5px;
+    font-size: 26px;
+}
+
+.title{
+    color: purple;
+    font-family: serif;
+    margin-bottom: 5px;
+    margin: 5px;
+    
+}
+
+.main_nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+.main_nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.list_nav{
+    display: inline-block;
+}
+
+.main_nav #blog {
+   background-color: red;
+}
