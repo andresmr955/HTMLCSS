@@ -1,0 +1,4 @@
+/* Apply this style just a paragraph close to h2 adjacent sibling*/
+h2 + p{
+    color: red;
+}
