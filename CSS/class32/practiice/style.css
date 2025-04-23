@@ -1,0 +1,41 @@
+/* 
+div + h1: El primer <h1> justo después de un <div>.
+div + h1: The first <h1> immediately following a <div>.
+*/
+
+div + h1 {
+    color: yellow;
+}
+
+/* 
+div ~ h1: Todos los <h1> hermanos que vienen después de un <div>.
+div ~ h1: All <h1> siblings that come after a <div>.
+*/
+div ~ h1{
+    color: blue;
+}
+
+/* 
+div h1: Todos los <h1> dentro de un <div> (sin importar cuán profundo estén).
+div h1: All <h1> elements inside a <div> (at any depth).
+*/
+div h1 {
+    color: red;
+}
+/* 
+footer > ul: <ul> que es hijo directo de un <footer>.
+footer > ul: A <ul> that is a direct child of a <footer>.
+ */
+
+footer > ul {
+    color: green;
+}
+
+ul {
+    list-style-position: inside;
+  }
+
+a:link    { color: blue; }     /* Enlace no visitado */
+a:visited { color: purple; }  /* Enlace visitado */
+a:hover   { color: green; }   /* Mouse encima */
+a:active  { color: yellow; }    /* Mientras haces clic */
