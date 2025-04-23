@@ -1,0 +1,22 @@
+nav{
+    list-style-type: none;
+}
+.nav_li{
+    display: inline-block;
+    
+}
+.nav_li a {
+    text-decoration: none;
+}
+
+/* From a direct parent div that be older  than a label p O child */
+div p{
+    color: blue;
+}
+
+div > p {
+    color :red;
+}
+#vid{
+    color: aliceblue;
+}
