@@ -1,0 +1,13 @@
+/* body{
+    font-size: 20px;
+     Here we changed the font-size container because now text-container are taking the this font-size as a reference 
+} */
+.text-container{
+    font-size: 1.5em;
+    /* Because html has font-size 16px and 1em = 16px and 0.5 = 8px total em = 24px */
+}
+
+.text-container div{
+    font-size: 1.5em;
+    /* em = 36px  Because container has 26px and this div is taking this font-size*/
+}
