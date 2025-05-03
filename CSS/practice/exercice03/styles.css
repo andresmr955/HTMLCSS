@@ -1,0 +1,34 @@
+#teal{
+    color: teal;
+}
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}    
+#green{
+    color: green;
+}
+#fuchsia{
+    color: fuchsia;
+}                           
+#purple{
+    color: purple;
+}
+#orange{
+    color: orange;
+}
+#olive{
+    color: olive;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
