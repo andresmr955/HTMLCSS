@@ -1,0 +1,13 @@
+
+.content-box{
+    box-sizing: content-box; /*By default by navigator*/
+    width: 200px;
+    padding: 20px;
+    border: 5px solid rgb(175, 13, 13);
+}
+.border-box{
+    box-sizing: border-box; /* This says to the navigator that includes the padding and border within of width and height*/
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+}
