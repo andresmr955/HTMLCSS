@@ -1,0 +1,36 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:  #CFC;
+    color: #00F;
+    font-family: Georgia, Cambria, serif;
+    font-size: 1.6rem;
+}
+
+h1{
+    color: #F00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.2rem;
+}
+
+h2{
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 2.4rem;
+}
+
+.datos-libro{
+    color: #060;
+}
+
+.sustantivo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.black-text{
+    color: #FFF;
+    background-color: #000;
+    font-style: italic;
+}
