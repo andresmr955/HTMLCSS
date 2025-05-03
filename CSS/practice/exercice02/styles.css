@@ -1,0 +1,27 @@
+a {
+    color: rgb(190, 79, 28);
+}
+
+#first p {
+    color: rgba(23, 92, 196, 0.938);
+}
+
+#first em {
+    background-color: rgba(240, 240, 42, 0.479);
+    color: blue;
+}
+
+#second p {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.highlight {
+    background-color: black;
+    color: yellow;
+}
+
+.strong-label {
+    font-weight: bold;
+    color: rgb(109, 106, 106);
+}
