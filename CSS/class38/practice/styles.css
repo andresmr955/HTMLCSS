@@ -13,9 +13,7 @@ html {
 /* 💡 LAYOUT GENERAL */
  .container {
     display: flex;
-     
-   
-    
+    justify-content: flex-start;  
 }
 
 main {
@@ -138,13 +136,20 @@ figure {
     border-radius: 15px;
 }
 
+.image-container {
+    
+    flex-grow: 1; /* Permite que el contenedor de la imagen (y el breadcrumb dentro) crezca para ocupar el espacio restante */
+    display: flex; /* Para posicionar el breadcrumb dentro */
+    flex-direction: column ; /* Para apilar el breadcrumb y las imágenes */
+    height: 100%;
+    width: 100%; 
+  }
+
 .breadcrumb{
     width: 100%; /* Hace que el breadcrumb ocupe todo el ancho */
     background-color: #f0f0f0; /* Fondo claro */
     padding: 10px 0; /* Espaciado arriba y abajo */
     height: 50px;
-    display: block;
-    
     
 }
 .breadcrumb ul{
@@ -182,22 +187,19 @@ figure {
     color: rgb(78, 53, 53);
 } 
 
-.image-container {
-    display: flex;  /* Usamos flexbox para que los elementos se alineen en una fila */
-    
-    justify-content: space-between;  /* Distribuye uniformemente los elementos */
-    gap: 0 10px;  /* Espacio entre los elementos */
-    flex-wrap: wrap;  /* Si los elementos no caben en una sola fila, se moverán a la siguiente */
+
+.image-grid { /* Selecciona el contenedor de imágenes interno */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* Aquí aplicas el wrap para las imágenes */
+  height: 60em;
+  
 }
 
-figure {
-    margin: 0;
-    flex: 1 1 23%; /* Cada imagen ocupará aproximadamente el 23% del ancho disponible */
-}
-
-.imag-side {
-    width: 100%; /* Las imágenes ocupan el 100% del ancho de su contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 8px;
-    margin: 10px;
+.image-container > .image-grid .box {
+  width: 40%;
+  height: auto;
+  margin: 5px; /* Añade un poco de margen entre las cajas */
+  border: 2px solid #ccc; /* Añade un borde para distinguir las cajas */
 }

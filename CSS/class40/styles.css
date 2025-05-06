@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid #000;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: blue;
+}   
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: green;
+}       
+.box5{
+    background-color: pink;
+}
+.box6{
+    background-color: orange;
+}
+
+.contenedor-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 300px; /* Asegúrate de que el contenedor tenga altura */
+    border: 1px solid black;
+  }
+  
+  .elemento {
+    padding: 10px;
+    border: 1px solid red;
+    margin-bottom: 5px;
+  }
+  
+  .elemento-fijo {
+    height: 50px;
+  }
+  
+  .elemento-flexible {
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: lightblue;
+  }
