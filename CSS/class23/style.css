@@ -28,6 +28,6 @@
     color: red;
 }
 
-.main-nav__item a::after{
+.main-nav__item:not(:last-child) a::after{
     content: " | ";
 }
