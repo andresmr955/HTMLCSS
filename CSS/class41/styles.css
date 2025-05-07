@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 50vh;
+    padding: 0;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    
+    background-color: yellow;
+}
+
+.box2{
+    
+    background-color: blue;
+}   
+.box3{
+    
+    background-color: red;
+}
+.box4{
+    
+    background-color: green;
+}       
+.box5{
+    
+    background-color: pink;
+}
+.box6{
+    
+    background-color: orange;
+}
+
+
+.contenedor {
+    display: flex;
+    height: 300px;  /* Altura del contenedor */
+    border: 2px solid black;
+    align-items: stretch; /* Estira los elementos hijos para que ocupen todo el alto del contenedor */
+  }
+
+  .item {
+    flex-grow: 1;
+    background-color: lightblue;
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 10px;
+    width: 50px; /* Establecer un ancho fijo */
+  }
