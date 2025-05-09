@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    color: rgb(182, 12, 12);
+    border: 5px solid black;
+    padding: 10px;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.general-c{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c1{
+    background-color: #03045e;
+    
+}
+.c2{
+    background-color: #0077b6;
+}
+.c3{
+    background-color: #00b4d8;
+}
+
+.c4{
+    background-color: #90e0ef;
+}
+
+.c5{
+    background-color: #caf0f8;
+}
+
+/*  While el viewport no sea mas chico que 600px va apply lo de up*/
+/*Once the viewport arrives at 600px applies the code inside here ⬇️*/
+/* @media (min-width: 600px){
+    .c2, .c3, .c4{
+        width: 50%;
+    }
+} */
+
+/* @media (min-width: 800px){
+
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c1{
+        width: 40%;
+    }
+    .c2{
+        width: 60%;
+    }
+    .c3, .c4{
+        width: 34%;
+    }
+    .c5{
+        width: 100%;
+    }
+} */
