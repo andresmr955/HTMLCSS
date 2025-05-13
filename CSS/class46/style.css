@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.box span{
+    color: white;
+    border: 5px solid white;
+    padding: 10px;
+    position: absolute; /*follow your father*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    
+}
+.box{
+    width: 100%;
+    min-width:150px;
+    height:150px;
+    position: relative; /*be the reference for your sons*/
+}
+
+.c1{
+    background-color: #132a13;
+}
+.c2{
+    background-color: #31572c;
+}
+.c3{
+    background-color: #4f772d;
+}
+.d1{
+    background: #90a955;
+}
+.d2{
+    background-color: #ecf39e;
+}
+
+.c2{
+    height: 320px;
+    padding: 10px;
+}
+
+@media (min-width: 600px){
+    .c1{
+        width: 25%;
+    }
+    .c2{
+        width: 75%;
+    }
+    .c3{
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px){
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+     .c1{
+        order: 1;
+        width: 50%;
+    }
+    .c2{
+        width: 100%;
+    }
+    .c3{
+        order: 2;
+        width: 50%;
+    }
+}
